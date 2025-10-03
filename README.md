@@ -1,6 +1,6 @@
 # Strategizing Against Q-Learners: A Control-Theoretical Approach
 
-This repository contains MATLAB code accompanying the letter:
+This repository contains MATLAB code accompanying the paper:
 
 > **Y. Arslantaş, E. Yüceel, and M. O. Sayin**,  
 > *Strategizing Against Q-Learners: A Control-Theoretical Approach*,  
@@ -56,20 +56,6 @@ Plots will show:
 - Computed **discounted payoffs**  
 
 Results are automatically saved in `.mat` files depending on the selected game type.
-
-## 🎮 Example
-
-In `main.m`, select the game type:
-
-```matlab
-[UA, UB, saveFile] = getGame('pd'); % Prisoner’s Dilemma
-
-Adjust learning and DP parameters:
-
-params.alpha = 0.1;   % learning rate
-params.gamma = 0.8;   % discount factor
-params.tau   = 0.01;  % softmax temperature
-params.H     = 20;    % DP horizon
 
 
 ## 📑 Reference
