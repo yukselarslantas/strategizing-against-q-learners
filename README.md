@@ -57,6 +57,20 @@ Plots will show:
 
 Results are automatically saved in `.mat` files depending on the selected game type.
 
+## 🎮 Example
+
+In `main.m`, select the game type:
+
+```matlab
+[UA, UB, saveFile] = getGame('pd'); % Prisoner’s Dilemma
+
+Adjust learning and DP parameters:
+
+params.alpha = 0.1;   % learning rate
+params.gamma = 0.8;   % discount factor
+params.tau   = 0.01;  % softmax temperature
+params.H     = 20;    % DP horizon
+```
 
 ## 📑 Reference
 If you use this code, please cite:
