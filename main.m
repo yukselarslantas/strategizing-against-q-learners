@@ -21,14 +21,14 @@
 %
 % Dependencies:
 %   - getGame.m
-%   - EWAvsEWA.m
-%   - EWAvsDP.m
+%   - QvsQ.m
+%   - QvsDP.m
 %   - runDP.m
 %   - chooseAction.m
-%   - quantizer2.m / inverse_quantizer2.m
+%   - quantizer.m / inverse_quantizer.m
 %
 % Author: Yüksel Arslantaş
-% Date:   2025-10-02
+% Date:   2025-10-07
 % -------------------------------------------------------------------------
 
 clc; clear;
