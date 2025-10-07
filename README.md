@@ -42,8 +42,8 @@ The simulations include:
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yukselarslantas/ewa-vs-dp.git
-cd ewa-vs-dp
+git clone https://github.com/yukselarslantas/strategizing-against-q-learners.git
+cd strategizing-against-q-learners
 ```
 ### 2. Run in MATLAB
 
@@ -51,7 +51,7 @@ cd ewa-vs-dp
 
 Plots will show:
 
-- The evolution of empirical frequencies (**CC, CD, DC, DD**)  
+- The evolution of empirical frequencies (**AA, AB, BA, BB**)  
 - Comparison of **Q vs Q** and **Q vs DP** interactions  
 - Computed **discounted payoffs**  
 
